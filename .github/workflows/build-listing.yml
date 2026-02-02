@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Package List
-        uses: vrchat-community/package-list-action@0.1.14
+        uses: vrchat-community/package-list-action@0.0.1
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           outputFolder: "dist"
